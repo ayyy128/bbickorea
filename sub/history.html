@@ -380,9 +380,9 @@
                 <div class="footer_menu">
                     <p>MENU</p>
                     <ul>
-                        <li><a href="sub/about.html">ABOUT</a></li>
-                        <li><a href="sub/breaker.html">BREAKER</a></li>
-                        <li><a href="sub/history.html">HISTORY</a></li>
+                        <li><a href="../sub/about.html">ABOUT</a></li>
+                        <li><a href="../sub/breaker.html">BREAKER</a></li>
+                        <li><a href="../sub/history.html">HISTORY</a></li>
                     </ul>
                 </div>
             </div><!-- inner -->
@@ -393,7 +393,12 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+          AOS.init({
+       once: true,
+    });
+    $(window).on('load', function () {
+          AOS.refresh();
+      });
     </script><!-- aos -->
 </body>
 
