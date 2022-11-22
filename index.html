@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bbickorea</title>
+
+    <!--opengraph-->
+    <!-- 모든 html문서에 다 들어가야 한다 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BBICKOREA">
+    <meta property="og:url" content="http://test.dothome.co.kr">
+    <meta property="og:image" content="images/bbic_og.png"><!-- 2:1사이즈 -->
+    <meta property="og:description" content="Bucheon Bboy internationai Championshios">
+
+    <!-- favicon -->
+    <!--사이즈 16*16 .ico로 작성-->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;600&family=Raleway:wght@300;400;600&family=Yeseva+One&display=swap"
+        rel="stylesheet"><!-- 한글 -->
+    <!-- 영문 -->
+
+
+    <!-- CSS -->
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- 아이콘 CDN빙식으로 적용-->
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- aos -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <header id="header">
+            <div class="inner">
+
+                <h1><a href="index.html">BBICKOREA</a></h1>
+
+                <nav>
+                    <ul class="gnb clearfix">
+                        <li><a href="sub/about.html">ABOUT</a></li>
+                        <li><a href="sub/breaker.html">BREAKER</a></li>
+                        <li><a href="sub/history.html">HISTORY</a></li>
+                        <li><a href="#"><i class="bi bi-search"></i></a></li>
+                    </ul>
+
+                    <div class="ham"><span>모바일메뉴보기</span></div><!-- ham 텍스트 들어가야함-->
+
+                    <div class="mgnb_wrap">
+                        <div class="mgnb">
+                            <ul>
+                                <li><a href="sub/about.html">ABOUT</a></li>
+                                <li><a href="sub/breaker.html">BREAKER</a></li>
+                                <li><a href="sub/history.html">HISTORY</a></li>
+                                <li><a href="#">
+                                        <div class="m_search">
+                                            <form>
+                                                <fieldset>
+                                                    <legend>검색영역</legend>
+                                                    <div class="inner">
+                                                        <input type="text" placeholder="Start Typing..."><input
+                                                            type="submit" value="검색"><!-- 두 요소 붙여 써야 붙어서 나옴 -->
+                                                    </div><!-- inner -->
+                                                </fieldset>
+                                            </form>
+                                    </a></li>
+                            </ul>
+                            <div class="close">close</div><!-- close -->
+                        </div><!-- mgnb -->
+                    </div><!-- mgnb_wrap -->
+                </nav>
+
+            </div><!-- inner -->
+        </header>
+
+        <div class="search">
+            <form>
+                <fieldset>
+                    <legend>검색영역</legend>
+                    <div class="inner">
+                        <input type="text" placeholder="Start Typing..."><input type="submit" value="검색">
+                        <!-- 두 요소 붙여 써야 붙어서 나옴 -->
+                    </div><!-- inner -->
+                </fieldset>
+            </form>
+            <div class="search_close"><span>검색닫기</span></div><!-- search_close -->
+        </div><!-- search -->
+
+        <main id="container">
+            <section id="main_video">
+                <div class="inner_100">
+                    <video class="v1" src="images/video.mp4" autoplay muted loop></video>
+                    <video class="v2" src="images/video.mp4" autoplay muted loop></video>
+
+                   <ul>
+                    <li><a href="https://www.youtube.com/channel/UCReLSB3bWh8b6-O5nyAj_Vw" target="_blank">
+                        <div class="sns"><i class="bi bi-youtube"></i></div>
+                    </a></li>
+
+                    <li><a href="https://www.instagram.com/BBICKOREA/" target="_blank">
+                        <div class="sns"><i
+                            class="bi bi-instagram"></i></div>
+                    </a></li>
+                    
+                   </ul>
+
+                    <span class="scroll-btn">
+                            <span class="mouse">
+                                <span>
+                                </span>
+                            </span>
+                    </span>
+                </div>
+            </section><!-- main_video -->
+
+            <section id="intro">
+                <div class="inner">
+
+                    <div class="intro_img" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="images/main_img.jpg" alt="BUCHEON BBOY INTERNATIONAL CHAMOIONSHIPS">
+                    </div>
+
+                    <div class="intro_txt" data-aos="fade-up" data-aos-duration="1500">
+                        <h3>2022 BBIC KOREA</h3>
+                        <p>기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;간 : 2022. 9. 30 - 10. 2 (3일간)</p>
+                        <p>장&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소 : 부천마루광장 오후6시</p>
+                        <p class="pro">프로그램 : DAY1 OPEN 1 ON 1 BRESKING BATTLE<br class="none">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DAY2
+                            ALL STYLE PERPORMANCE<br class="none">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DAY3
+                            OPEN 2 ON 2 BRESKING BATTLE</p>
+                    </div>
+
+                </div><!-- inner -->
+            </section>
+            <!--intro -->
+
+            <section id="about">
+                <div class="inner clearfix">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                        <h2 class="h2_01">About</h2>
+                    </div>
+                    <div class="about_01">
+                        <div class="about_all" data-aos="fade-up" data-aos-duration="1500">
+                            <img src="images/about_img.png" alt="진조크루 사진">
+
+                            <div class="about_txt">
+                                <h3>BBIC (BUCHEON BBOY INTERNATIONAL CHAMOIONSHIPS)</h3>
+                                <p>비보이 전문예술단체 진조크루가 주관하고 있는 부천세계비보이대회 BBIC는 2016년 첫 회를 시작으로 현재까지도 국내 최대
+                                    <!-- <br> -->
+                                    규모를 자랑하는 세계 비보이대회 이다. 세계랭킹 1위 비보이팀 진조크루가 쌓아온 수많은 해외 유명 아티스트들과의 밀접한
+                                    <!-- <br> -->
+                                    관계를 통해 매년 60여 국가, 200여 명의 정상급 게스트를 초청하고 있다.
+                                </p>
+
+                                <div class="more_btn"><a href="sub/about.html">MORE&nbsp;&nbsp;<i class="bi bi-arrow-right"></i></a>
+                                </div>
+    
+
+                            </div><!-- about_txt -->
+
+                        </div><!-- about_all -->
+
+                        <div class="time">
+
+                            <table data-aos="fade-up" data-aos-duration="1000">
+                                <caption>DAY 1</caption>
+                                <tr>
+                                    <th>TIME</th>
+                                    <td class="color_01">PRELIM </td>
+                                    <td class="color_02">OPEN 1 ON 1<br>
+                                        BREAKING</td>
+                                    <td class="color_03">WORKSHOP</td>
+                                    <td class="color_04">SHOWCASE</td>
+                                </tr>
+
+                                <tr>
+                                    <th>17 : 00</th>
+                                    <td colspan="4" class="line">HOUSE OPEN</td>
+
+                                </tr>
+
+                                <tr>
+                                    <th>18 : 00</th>
+                                    <td></td>
+                                    <td class="color_02">TOP 4</td>
+                                    <td></td>
+                                    <td class="color_04">DOKTEUK CREW</td>
+                                </tr>
+
+                                <tr>
+                                    <th>18 : 10</th>
+                                    <td></td>
+                                    <td class="color_02">TOP 16 - TOP 8 </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>19 : 10</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="color_04">EMOTIONAL LINE</td>
+                                </tr>
+
+                                <tr>
+                                    <th>19 : 15</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>19 : 45</th>
+                                    <td></td>
+                                    <td class="color_02">FINAL</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 00</th>
+                                    <td></td>
+                                    <td class="color_02">AWARDS </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                            </table>
+
+
+                            <table data-aos="fade-up" data-aos-duration="1500">
+                                <caption>DAY 2</caption>
+                                <tr>
+                                    <th>TIME</th>
+                                    <td class="color_01">PRELIM </td>
+                                    <td class="color_02">OPEN 1 ON 1<br>
+                                        BREAKING</td>
+                                    <td class="color_03">WORKSHOP</td>
+                                    <td class="color_04">SHOWCASE</td>
+                                </tr>
+
+                                <tr>
+                                    <th>17 : 00</th>
+                                    <td colspan="4" class="line">HOUSE OPEN</td>
+
+                                </tr>
+
+                                <tr>
+                                    <th>17 : 30</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="color_03">FOOTWORK 7 TO<br>
+                                        SMOKE</td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>18 : 00</th>
+                                    <td colspan="4" class="line">EVENTSTART</td>
+                                </tr>
+
+                                <tr>
+                                    <th>18 : 05</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="color_04">JUDGE SHOWCASE</td>
+                                </tr>
+
+                                <tr>
+                                    <th>18 : 15</th>
+                                    <td class="color_01">PERFORMANCE<br>
+                                        COMPETITION (1)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>18 : 55</th>
+                                    <td class="color_01">PERFORMANCE<br>
+                                        COMPETITION (2)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>19 : 50</th>
+                                    <td class="color_01">AWARDS</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 05</th>
+                                    <td></td>
+                                    <td class="color_02">ASIA vs AMERICA</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 15</th>
+                                    <td></td>
+                                    <td class="color_02">AMERICA vs EUROPE</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 25</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="color_04">WORLD FAME US </td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 35</th>
+                                    <td></td>
+                                    <td class="color_02">EUROPE vs ASIA</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+
+                            </table>
+
+
+                            <table data-aos="fade-up" data-aos-duration="2000">
+                                <caption>DAY 3</caption>
+                                <tr>
+                                    <th>TIME</th>
+                                    <td class="color_01">PRELIM</td>
+                                    <td class="color_02">OPEN 2 ON 2 BREAKING</td>
+                                    <td class="color_03">SHOWCASE</td>
+                                </tr>
+
+                                <tr>
+                                    <th>17 : 00</th>
+                                    <td colspan="4" class="line">HOUSE OPEN</td>
+
+                                </tr>
+
+                                <tr>
+                                    <th>18 : 00</th>
+                                    <td colspan="4" class="line">EVENTSTART</td>
+                                </tr>
+
+                                <tr>
+                                    <th>18 : 10</th>
+                                    <td></td>
+                                    <td class="color_02">TOP 16</td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>19 : 25</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="color_03">LA CHICA</td>
+                                </tr>
+
+                                <tr>
+                                    <th>19 : 30</th>
+                                    <td></td>
+                                    <td class="color_02">TOP 8</td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 05</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="color_03">1MILLION</td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 10</th>
+                                    <td></td>
+                                    <td class="color_02">TOP 4</td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 30</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="color_03">JINJOCREW </td>
+                                </tr>
+
+                                <tr>
+                                    <th>20 : 35</th>
+                                    <td></td>
+                                    <td class="color_02">FINAL</td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <th>21 : 00</th>
+                                    <td></td>
+                                    <td class="color_02">AWARDS</td>
+                                    <td></td>
+                                </tr>
+
+                            </table>
+                        </div><!-- time -->
+                    </div><!-- about_01 -->
+
+                </div><!-- inner -->
+            </section><!-- about -->
+
+            <section id="breaker">
+                <div class="inner clearfix">
+
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                    <h2 class="h2_02">Breaker</h2>
+                </div>
+
+
+                    <div class="breaker_all">
+                        <div class="day1" data-aos="fade-up" data-aos-duration="1500">
+                            <p>1 ON 1</p>
+                            <ul class="pro1">
+                                <li><span>ALVIN</span><a href="https://www.youtube.com/watch?v=aBTZlnVodic&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv" target="_blank"><img src="images/breaker_01.jpg" alt="ALVIN"></a></li>
+                                <li><span>PHIL WIZARD</span><a href="https://www.youtube.com/watch?v=aBTZlnVodic&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv" target="_blank"><img src="images/breaker_02.jpg" alt="PHIL WIZARD"></a></li>
+                                <li><span>VERO</span><a href="https://www.youtube.com/watch?v=buVml77qWXo&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=2" target="_blank"><img src="images/breaker_03.jpg" alt="VERO"></a></li>
+                                <li><span>GRAVITY</span><a href="https://www.youtube.com/watch?v=EKty_hZjBpY&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=3" target="_blank"><img src="images/breaker_04.jpg" alt="GRAVITY"></a></li>
+                                <li><span>QUAKE </span><a href="https://www.youtube.com/watch?v=OP2OuHc9gQs&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=11" target="_blank"><img src="images/breaker_05.jpg" alt="QUAKE"></a></li>
+                                <li><span>STRIPES</span><a href="https://www.youtube.com/watch?v=HEoASBtX7KU&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=10" target="_blank"><img src="images/breaker_06.jpg" alt="STRIPES"></a></li>
+                                <li><span>WILD CHILD</span><a href="https://www.youtube.com/watch?v=m8fueoTiy38&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=15" target="_blank"><img src="images/breaker_07.jpg" alt="WILD CHILD"></a></li>
+                                <li><span>AMIR</span><a href="https://www.youtube.com/watch?v=clS92pRpaGI&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=5" target="_blank"><img src="images/breaker_08.jpg" alt="AMIR"></a></li>
+                                <li><span>ISSIN</span><a href="https://www.youtube.com/watch?v=qgGzg69S2-g&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=6" target="_blank"><img src="images/breaker_09.jpg" alt="ISSIN"></a></li>
+                                <li><span>ROBB</span><a href="https://www.youtube.com/watch?v=J3f29pHS-cc&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=7" target="_blank"><img src="images/breaker_10.jpg" alt="ROBB"></a></li>
+                                <li><span>KAE</span><a href="https://www.youtube.com/watch?v=uIfvhHdsUPs&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=4" target="_blank"><img src="images/breaker_11.jpg" alt="KAE"></a></li>
+                                <li><span>HEADY</span><a href="https://www.youtube.com/watch?v=6pgLHFogeyo&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=13" target="_blank"><img src="images/breaker_12.jpg" alt="HEADY"></a></li>
+                            </ul>
+                        </div><!-- day1 -->
+
+
+                        <div class="day2" data-aos="fade-up" data-aos-duration="2000">
+                            <p>ALL STYLE</p>
+                            <ul class="pro2">
+                                <li><span>ROBOTRONIC HARMONIX</span><a href="https://www.youtube.com/watch?v=mrV1mtfxr3A&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=1" target="_blank"><img src="images/all_01.png" alt="HARMONIX"></a></li>
+                                <li><span>LADY BOUNCE</span><a href="https://www.youtube.com/watch?v=02ZBB7pNzJc&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=2" target="_blank"><img src="images/all_02.png" alt="LADY BOUNCE"></a></li>
+                                <li><span>HANYA</span><a href="https://www.youtube.com/watch?v=E5LMHjW6e3A&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=4" target="_blank"><img src="images/all_03.png" alt="HANYA"></a></li>
+                                <li><span>KIMAZ</span><a href="https://www.youtube.com/watch?v=Vb2fMRipcUU&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=8" target="_blank"><img src="images/all_04.png" alt="KIMAZ"></a></li>
+                                <li><span>LINE SQUAD</span><a href="https://www.youtube.com/watch?v=P1YDJSNx_XY&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=5" target="_blank"><img src="images/all_05.png" alt="LINE SQUAD"></a></li>
+                                <li><span>MIS MOLLY</span><a href="https://www.youtube.com/watch?v=olMNxH_1qRA&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=7" target="_blank"><img src="images/all_06.png" alt="MIS MOLLY"></a></li>
+                                <li><span>NO LIP</span><a href="https://www.youtube.com/watch?v=kOnUyKawFtQ&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=6" target="_blank"><img src="images/all_07.png" alt="NO LIP"></a></li>
+                                <li><span>ZINGY DOGS</span><a href="https://www.youtube.com/watch?v=SbXa1dGEfMI&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=3" target="_blank"><img src="images/all_08.png" alt="ZINGY DOGS"></a></li>
+                            </ul>
+                        </div><!-- day2 -->
+                    </div>
+                </div><!-- inner -->
+            </section><!-- Breaker -->
+
+            <section id="history">
+                <div class="inner clearfix">
+                    <div class="box">
+                    <h2 class="h2_03" data-aos="fade-up" data-aos-duration="1000">History></h2>
+                </div>
+
+                    <div class="year" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="h_2021">
+                            <p>2021</p>
+
+                            <div class="swiper h_2021_list">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <a href="https://www.youtube.com/watch?v=YcWyWo3fjJA&list=PLM9AlFFnihG9q4XkAscrdGIvEX4kD50A_" target="_blank"><img src="images/2021_b_crew.png" alt="winner-SEOUL SKILLZ">
+                                            <div class="winner">
+                                                <p>BREAKING CREW BATTLE<br>
+                                                <span>SEOUL SKILLZ</span>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="swiper-slide">
+                                        <a href="https://www.youtube.com/watch?v=iqbT45lPhhY&list=PLM9AlFFnihG-kVCnS9OfU24zJ5yGC7Ykv&index=16" target="_blank"><img src="images/2021_b_s.png" alt="winner-PHIL WIZARD">
+                                            <div class="winner">
+                                                <p>OPEN 1 ON 1 BREAKING<br>
+                                                <span>PHIL WIZARD</span>
+                                            </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="swiper-slide">
+                                        <a href="https://www.youtube.com/watch?v=K55SfhYWxzA&list=PLM9AlFFnihG8qVvSnxyAN9UdggwV8Qj8P&index=9" target="_blank"><img src="images/2021_all.png" alt="winner- LOCK N LOL CREW">
+                                            <div class="winner">
+                                                <p>ALL STYLE PERFORMANCE<br>
+                                                <span>LOCK N LOL CREW</span>
+                                            </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul><!-- swiper-wrapper -->
+                                <span class="swiper-button-next arrow next"></span><!-- 방향버튼 -->
+                            </div><!-- 2021_list -->
+
+                        </div><!-- 2021 -->
+
+                        <div class="h_2020">
+                            <p>2020</p>
+
+                            <div class="swiper h_2020_list">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <a href="https://www.youtube.com/watch?v=kBDhIkUNYZ8&list=PLPIBsDZz_uQZ2Z__VFgaSuUYSKz6kvjTX" target="_blank"><img src="images/2020_b_crew.png" alt="winner-THE FLOORRIOR">
+                                            <div class="winner">
+                                                <p>4 ON 4 BREAKING WORLD FINAL<br>
+                                                <span>THE FLOORRIORZ</span>
+                                            </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="swiper-slide">
+                                        <a href="https://www.youtube.com/watch?v=atDYlbbH4hw&list=PLPIBsDZz_uQbG03QcA-_4LvBzU4F4dlCG" target="_blank"><img src="images/2020_b_s.png" alt="winner-THESIS">
+                                            <div class="winner">
+                                                <p>OPEN 1 ON 1 BREAKING<br>
+                                                <span>THESIS</span>
+                                            </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="swiper-slide">
+                                        <a href="https://www.youtube.com/watch?v=71WjUAal_NE&list=PLPIBsDZz_uQbG03QcA-_4LvBzU4F4dlCG&index=4" target="_blank"><img src="images/2020_all.png" alt="winner-DOKTEUK CREW">
+                                            <div class="winner">
+                                                <p>ALL STYLE PERFORMANCE<br>
+                                                <span>DOKTEUK CREW</span>
+                                            </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul><!-- swiper-wrapper -->
+                                <span class="swiper-button-next arrow next"></span><!-- 방향버튼 -->
+                            </div><!-- 2021_list -->
+
+                            <div class="more_btn"><a href="sub/history.html">MORE&nbsp;&nbsp;<i class="bi bi-arrow-right"></i></a>
+                            </div>
+
+                        </div><!-- 2021 -->
+
+                    </div><!-- year -->
+                </div><!-- inner -->
+            </section><!-- History -->
+        </main>
+
+        <footer id="footer">
+            <div class="line"></div>
+            <div class="inner">
+                <div class="footer_txt">
+                    <p class="name"><a href="index.html">BBICKOREA</a></p>
+                    <P class="mail_1">BBICKOREA E-MAIL</P>
+                    <P class="mail_2">BBICKOREA@GMAIL.COM</P>
+                    <a href="https://www.youtube.com/channel/UCReLSB3bWh8b6-O5nyAj_Vw" target="_blank"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.instagram.com/BBICKOREA/" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+                </div>
+
+                <div class="footer_menu">
+                    <p>MENU</p>
+                    <ul>
+                        <li><a href="sub/about.html">ABOUT</a></li>
+                        <li><a href="sub/breaker.html">BREAKER</a></li>
+                        <li><a href="sub/history.html">HISTORY</a></li>
+                    </ul>
+                </div>
+            </div><!-- inner -->
+            <p class="copy">Copyright &copy; 2022 BBICKOREA </p>
+        </footer><!-- footer -->
+
+
+    </div><!-- wrap -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+       once: true,
+    });
+    $(window).on('load', function () {
+          AOS.refresh();
+      });
+    </script><!-- aos -->
+
+
+</body>
+
+</html>
