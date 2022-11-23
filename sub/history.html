@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- 아이콘 CDN빙식으로 적용-->
     <link href="../css/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- aos -->
     <link href="../css/history.css" rel="stylesheet">
 
     <!-- js -->
@@ -104,6 +104,7 @@
                 </div>
 
                     <div class="year" data-aos="fade-up" data-aos-duration="1500">
+                        
                         <div class="h_year">
                             <p>2021</p>
 
@@ -280,7 +281,7 @@
                                 <span class="swiper-button-next arrow next"></span><!-- 방향버튼 -->
                             </div><!-- 2018_list -->
                         </div><!-- 2018 -->
-                  
+
                         <div class="h_year">
                             <p>2017</p>
 
@@ -391,15 +392,16 @@
 
     </div><!-- wrap -->
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-          AOS.init({
+        AOS.init({
        once: true,
     });
     $(window).on('load', function () {
           AOS.refresh();
       });
-    </script><!-- aos -->
+    </script>
+
 </body>
 
 </html>
